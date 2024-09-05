@@ -20,28 +20,6 @@ Learning Program at Purwadhika Digital Technology School.`
 **Date Submitted:** `2024-09-05` <br>
 **Data Source:** [Kaggle Hotel Bookings Demand Dataset](https://www.kaggle.com/jessemostipak/hotel-booking-demand/data) <br>
 
-
-<div style="text-align: center;">
-  <h1 style="font-weight: bold; display: inline-block; font-size: 44px;">
-    <span style="color: #627254;">Maintaining Vila Galé Hotel Revenue:</span> Predictive Analytics for Reservation Cancellations and No-Shows in The Hospitality Sector
-  </h1>
-</div>
-
-<div style="text-align: left;">
-  <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; font-style: italic; display: inline-block;">Final Project: Data-Driven Analysis and Supervised Learning Classification</h3>
-</div>
-
-`Disclaimer: This final project serves as a final crucial component of the educational and assessment sequence in Job Connector Data Science and Machine
-Learning Program at Purwadhika Digital Technology School.`
-
----
-
-**Author:** [Arief Luqman Hakiem](https://www.linkedin.com/in/ariefluqman/), [Samuel Semaya](https://www.linkedin.com/in/samuelsemaya/), and [Yusuf Sidharta](https://www.linkedin.com/in/yusuf-sidharta-257203127/) <br>
-**Batch:** JCDS 2404 <br>
-**Date Submitted:** `2024-09-05` <br>
-**Data Source:** [Kaggle Hotel Bookings Demand Dataset](https://www.kaggle.com/jessemostipak/hotel-booking-demand/data) <br>
-
-
 <div style="text-align: left;">
   <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block;">Supporting Resources</h3>
 </div>
