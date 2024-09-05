@@ -8,11 +8,16 @@
   </span>
 </h1>
 
+---
+
 <div style="text-align: left;">
   <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; font-style: italic; display: inline-block;">Final Project: Data-Driven Analysis and Supervised Learning Classification</h2>
 </div>
 
-`Disclaimer: 
+---
+
+> [!IMPORTANT]
+> `Disclaimer: 
 This final project serves as a final crucial component of the educational and assessment sequence in Job Connector Data Science and Machine Learning Program at Purwadhika Digital Technology School. The notebook might be too heavy to be rendered in Github reader, please kindly download the notebook to your local environment to read the Jupyter Notebook.`
 
 ---
@@ -25,6 +30,8 @@ This final project serves as a final crucial component of the educational and as
 <div style="text-align: left;">
   <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block;">Supporting Resources</h2>
 </div>
+
+---
 
  **Github:** [Repository](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_JKT_24_FinalProject) <br>
  **Tableau:** [Dashboard](https://public.tableau.com/app/profile/samuelsemaya/viz/hotel_bookings_17248493669470/DashboardSummary) <br>
