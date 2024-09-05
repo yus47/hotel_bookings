@@ -75,7 +75,7 @@ The problem hypothesis for analytics might center on identifying actionable insi
 
 <div style='text-align: justify'>
 
-The goals of this analysis is to assist the <b>Hotel Revenue Manager</b> in optimizing hotel revenue and improving overall operational efficiency. The analysis will focus on identifying booking patterns, occupancy trends, customer segmentation, and factors influencing reservation cancellations. The insights gained will be used to develop <b>dynamic pricing strategies, increase occupancy rates, reduce cancellations, and optimize resource allocation</b>. Ultimately, these findings will support data-driven decision-making to enhance hotel profitability during both high and low demand periods [[10]](https://www.mews.com/en/blog/hotel-revenue-manager).
+The goals of this analysis is to assist the <b>Hotel Revenue Manager</b> in optimizing hotel revenue and improving overall operational efficiency. The analysis will focus on identifying booking patterns, occupancy trends, customer segmentation, and factors influencing reservation cancellations. The insights gained will be used to develop <b>dynamic pricing strategies, increase occupancy rates, reduce cancellations, and optimize resource allocation</b>. Ultimately, these findings will support data-driven decision-making to enhance hotel profitability during both high and low demand periods [[6]](https://www.mews.com/en/blog/hotel-revenue-manager).
 
 </div>
 <div style="text-align: left;">
