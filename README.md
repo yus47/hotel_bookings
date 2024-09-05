@@ -243,6 +243,8 @@ Based on the cross-validating and model evaluation, the model chosen for this ca
 </div>
 
 <div style='width: 100%; height: 0.05px; background-color: #2C3E3D; border-radius: 10px; margin-top: 20px; margin-bottom: 20px;'></div>
+
+
 This model was trained using Xtreme Gradient Booster model for classification, with the train data were resampled using Random Oversampling method. While the model may perform well, there are several limitations while inputting data to be used as features, listed below:
 * `lead_time` must be inbetween 0 and 709;
 * `duration_of_stay` must be inbetween 1 and 57;
