@@ -21,7 +21,7 @@ This final project serves as a final crucial component of the educational and as
 
 **Author:** [Arief Luqman Hakiem](https://www.linkedin.com/in/ariefluqman/), [Samuel Semaya](https://www.linkedin.com/in/samuelsemaya/), and [Yusuf Sidharta](https://www.linkedin.com/in/yusuf-sidharta-257203127/) <br>
 **Batch:** JCDS 2404 <br>
-**Date Submitted:** `2024-09-05` <br>
+**Date Submitted and Last Updated:** `2024-09-05` <br>
 **Data Source:** [Kaggle Hotel Bookings Demand Dataset](https://www.kaggle.com/jessemostipak/hotel-booking-demand/data) <br>
 
 <div style="text-align: left;">
