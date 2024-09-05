@@ -21,7 +21,7 @@ Learning Program at Purwadhika Digital Technology School.`
 **Data Source:** [Kaggle Hotel Bookings Demand Dataset](https://www.kaggle.com/jessemostipak/hotel-booking-demand/data) <br>
 
 <div style="text-align: left;">
-  <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block;">Supporting Resources</h3>
+  <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block;">Supporting Resources</h2>
 </div>
 
  **Github:** [Repository](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_JKT_24_FinalProject) <br>
@@ -29,7 +29,7 @@ Learning Program at Purwadhika Digital Technology School.`
  **Streamlit:** [Deployment](https://www.google.com)
 
 <div style="text-align: left;">
-  <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Context</h3>
+  <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Context</h2>
 </div>
 
 ---
@@ -48,7 +48,7 @@ However, <strong>high cancellation rates remain a challenge for hotels, influenc
 
 
 <div style="text-align: left;">
-  <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Problem Hypothesis</h3>
+  <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Problem Hypothesis</h2>
 </div>
 
 ---
@@ -68,7 +68,7 @@ The problem hypothesis for analytics might center on identifying actionable insi
 
 
 <div style="text-align: left;">
-  <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Problem Goals</h3>
+  <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Problem Goals</h2>
 </div>
 
 ---
@@ -79,7 +79,7 @@ The goals of this analysis is to assist the <b>Hotel Revenue Manager</b> in opti
 
 </div>
 <div style="text-align: left;">
-  <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Evaluation Metric</h3>
+  <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Evaluation Metric</h2>
 </div>
 
 ---
@@ -117,7 +117,7 @@ The <strong>F2 score</strong> is chosen as the primary evaluation metric for thi
 
 
 <div style="text-align: left;">
-  <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Dataset Dictionary</h3>
+  <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Dataset Dictionary</h2>
 </div>
 
 ---
