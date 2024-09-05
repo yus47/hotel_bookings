@@ -31,9 +31,7 @@ Learning Program at Purwadhika Digital Technology School.`
 <div style="text-align: left;">
   <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Context</h3>
 </div>
-
-<div style='width: 100%; height: 0.05px; background-color: #2C3E3D; border-radius: 10px; margin-top: 20px; margin-bottom: 20px;'></div>
-
+---
 
 <div style='text-align: justify'>
 
@@ -51,9 +49,7 @@ However, <strong>high cancellation rates remain a challenge for hotels, influenc
 <div style="text-align: left;">
   <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Problem Hypothesis</h3>
 </div>
-
-<div style='width: 100%; height: 0.05px; background-color: #2C3E3D; border-radius: 10px; margin-top: 20px; margin-bottom: 20px;'></div>
-
+---
 
 <div style='text-align: justify'>
 
@@ -69,26 +65,20 @@ The problem hypothesis for analytics might center on identifying actionable insi
 
 
 
-
-
-
 <div style="text-align: left;">
   <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Problem Goals</h3>
 </div>
+---
 
-<div style='width: 100%; height: 0.05px; background-color: #2C3E3D; border-radius: 10px; margin-top: 20px; margin-bottom: 20px;'></div>
+<div style='text-align: justify'>
 
+The goals of this analysis is to assist the <b>Hotel Revenue Manager</b> in optimizing hotel revenue and improving overall operational efficiency. The analysis will focus on identifying booking patterns, occupancy trends, customer segmentation, and factors influencing reservation cancellations. The insights gained will be used to develop <b>dynamic pricing strategies, increase occupancy rates, reduce cancellations, and optimize resource allocation</b>. Ultimately, these findings will support data-driven decision-making to enhance hotel profitability during both high and low demand periods [[10]](https://www.mews.com/en/blog/hotel-revenue-manager).
 
-
-
-
+</div>
 <div style="text-align: left;">
   <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Evaluation Metric</h3>
 </div>
-
-<div style='width: 100%; height: 0.05px; background-color: #2C3E3D; border-radius: 10px; margin-top: 20px; margin-bottom: 20px;'></div>
-
-
+---
 
 <div style='text-align: justify'>
 
@@ -125,10 +115,7 @@ The <strong>F2 score</strong> is chosen as the primary evaluation metric for thi
 <div style="text-align: left;">
   <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Dataset Dictionary</h3>
 </div>
-
-<div style='width: 100%; height: 0.05px; background-color: #2C3E3D; border-radius: 10px; margin-top: 20px; margin-bottom: 20px;'></div>
-
-
+---
 
 |Column|Data Type|Description|
 |---|---|---|
@@ -179,8 +166,9 @@ For analysis purpose, several columns also need to be added into the dataframe. 
 
 
 
-
-#### Conclusions of Data Cleaning
+<div style="text-align: left;">
+  <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Conclusion of Data Cleaning</h2>
+</div>
 ---
 
 To summarize what was done in the data cleaning process, the changed of the current dataframe with the original dataframe are listed below:
@@ -218,9 +206,7 @@ The cleaned data is enclosed in this repository with the name `hotel_bookings_cl
 <div style="text-align: left;">
   <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Modeling</h2>
 </div>
-
-<div style='width: 100%; height: 0.05px; background-color: #2C3E3D; border-radius: 10px; margin-top: 20px; margin-bottom: 20px;'></div>
-
+---
 
 <div style='text-align: justify'>
 For this guest prediction cancellation project, we will separate the dataset into features (independent variables) and target (dependent variable). Features include columns excluding 'is_canceled', such as 'agent', 'company', and others. <strong>Our target is the 'is_canceled' column</strong>, which indicates whether a guest canceled or not. This separation is crucial for training the model to predict canceled based on guest characteristics.
@@ -241,9 +227,7 @@ Based on the cross-validating and model evaluation, the model chosen for this ca
 <div style="text-align: left;">
   <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Model Limitations</h2>
 </div>
-
-<div style='width: 100%; height: 0.05px; background-color: #2C3E3D; border-radius: 10px; margin-top: 20px; margin-bottom: 20px;'></div>
-
+---
 
 This model was trained using Xtreme Gradient Booster model for classification, with the train data were resampled using Random Oversampling method. While the model may perform well, there are several limitations while inputting data to be used as features, listed below:
 * `lead_time` must be inbetween 0 and 709;
