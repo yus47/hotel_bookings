@@ -14,13 +14,9 @@
   <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; font-style: italic; display: inline-block;">Final Project: Data-Driven Analysis and Supervised Learning Classification</h2>
 </div>
 
----
-
 > [!IMPORTANT]
 > `Disclaimer: 
 This final project serves as a final crucial component of the educational and assessment sequence in Job Connector Data Science and Machine Learning Program at Purwadhika Digital Technology School. The notebook might be too heavy to be rendered in Github reader, please kindly download the notebook to your local environment to read the Jupyter Notebook.`
-
----
 
 **Author:** [Arief Luqman Hakiem](https://www.linkedin.com/in/ariefluqman/), [Samuel Semaya](https://www.linkedin.com/in/samuelsemaya/), and [Yusuf Sidharta](https://www.linkedin.com/in/yusuf-sidharta-257203127/) <br>
 **Batch:** JCDS 2404 <br>
