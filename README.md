@@ -24,8 +24,8 @@ Learning Program at Purwadhika Digital Technology School.`
   <h3 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block;">Supporting Resources</h3>
 </div>
 
- **Github:** [Repository](https://www.google.com) <br>
- **Tableau:** [Dashboard](https://www.google.com) and [Story](https://www.google.com) <br>
+ **Github:** [Repository](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_JKT_24_FinalProject) <br>
+ **Tableau:** [Dashboard](https://www.google.com) <br>
  **Streamlit:** [Deployment](https://www.google.com)
 
 <div style="text-align: left;">
