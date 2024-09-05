@@ -25,7 +25,7 @@ Learning Program at Purwadhika Digital Technology School.`
 </div>
 
  **Github:** [Repository](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_JKT_24_FinalProject) <br>
- **Tableau:** [Dashboard](https://www.google.com) <br>
+ **Tableau:** [Dashboard](https://public.tableau.com/app/profile/samuelsemaya/viz/hotel_bookings_17248493669470/DashboardSummary) <br>
  **Streamlit:** [Deployment](https://www.google.com)
 
 <div style="text-align: left;">
