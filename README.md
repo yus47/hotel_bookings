@@ -10,8 +10,8 @@
   <h1 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; font-style: italic; display: inline-block;">Final Project: Data-Driven Analysis and Supervised Learning Classification</h1>
 </div>
 
-`Disclaimer: This final project serves as a final crucial component of the educational and assessment sequence in Job Connector Data Science and Machine
-Learning Program at Purwadhika Digital Technology School.`
+`Disclaimer: 
+This final project serves as a final crucial component of the educational and assessment sequence in Job Connector Data Science and Machine Learning Program at Purwadhika Digital Technology School. The notebook might be to heavy to be rendered in Github reader, please kindly download the notebook to your local environment to read the Jupyter Notebook.`
 
 ---
 
