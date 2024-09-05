@@ -1,13 +1,15 @@
-# AlphaGroup_JC_DS_FT_JKT_24_FinalProject
 
-<div style="text-align: center;">
-  <h1 style="font-weight: bold; display: inline-block; font-size: 44px;">
-    <span style="color: #627254;">Maintaining Vila Galé Hotel Revenue:</span> Predictive Analytics for Reservation Cancellations and No-Shows in The Hospitality Sector
-  </h1>
-</div>
+> [!NOTE]
+> <b>AlphaGroup_JC_DS_FT_JKT_24_FinalProject</b>
+
+<h1 align="center">
+  <span style="color: #627254; font-size: 44px; font-weight: bold;">
+    Maintaining Vila Galé Hotel Revenue: Predictive Analytics for Reservation Cancellations and No-Shows in The Hospitality Sector
+  </span>
+</h1>
 
 <div style="text-align: left;">
-  <h1 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; font-style: italic; display: inline-block;">Final Project: Data-Driven Analysis and Supervised Learning Classification</h1>
+  <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; font-style: italic; display: inline-block;">Final Project: Data-Driven Analysis and Supervised Learning Classification</h2>
 </div>
 
 `Disclaimer: 
