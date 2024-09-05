@@ -1,0 +1,8 @@
+streamlit
+pandas
+scikit-learn
+xgboost
+plotly
+pillow
+imbalanced-learn
+category_encoders
