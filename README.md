@@ -11,7 +11,7 @@
 </div>
 
 `Disclaimer: 
-This final project serves as a final crucial component of the educational and assessment sequence in Job Connector Data Science and Machine Learning Program at Purwadhika Digital Technology School. The notebook might be to heavy to be rendered in Github reader, please kindly download the notebook to your local environment to read the Jupyter Notebook.`
+This final project serves as a final crucial component of the educational and assessment sequence in Job Connector Data Science and Machine Learning Program at Purwadhika Digital Technology School. The notebook might be too heavy to be rendered in Github reader, please kindly download the notebook to your local environment to read the Jupyter Notebook.`
 
 ---
 
