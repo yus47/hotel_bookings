@@ -32,8 +32,7 @@ This final project serves as a final crucial component of the educational and as
 
  **Github:** [Repository](https://github.com/PurwadhikaDev/AlphaGroup_JC_DS_FT_JKT_24_FinalProject) <br>
  **Tableau:** [Dashboard](https://public.tableau.com/app/profile/samuelsemaya/viz/hotel_bookings_17248493669470/DashboardSummary) <br>
- **Streamlit:** [Deployment](https://hotel-cancellation-alpha-group.streamlit.app/)
-
+ 
 <div style="text-align: left;">
   <h2 style="background-color: #2C3E3D; color: white; padding: 10px 20px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; display: inline-block; font-size: 30px">Context</h2>
 </div>
@@ -46,8 +45,7 @@ This final project serves as a final crucial component of the educational and as
 <br><br>
 The two hotels are <strong>Vila Galé Opera</strong> and <strong>Vila Galé Atlântico</strong>. There are similarities and differences between the two hotels. Both are <strong>4-star hotels</strong> under Vila Galé management, but their target markets are a bit different. With their facilities, Vila Galé Opera, located in Lisbon, is assumed to also target business-minded guests as well as tourists [[3]](https://www.vilagale.com/en/hotels/lisbon-coast/vila-gale-opera), making it fall in the <strong>city hotel category</strong>. On the contrary, Vila Galé Atlântico, located right besides Galé beach in Albufeira, is focusing more on guests who want to enjoy their vacation, both for couples and for families with children [[4]](https://www.vilagale.com/en/hotels/algarve/vila-gale-atlantico). This condition of Vila Galé Atlântico makes it fall in the <strong>resort hotel category</strong> for this research purpose.
 <br><br>
-However, <strong>high cancellation rates remain a challenge for hotels, influenced by customer behavior and economic uncertainties</strong>. These studies highlight that stricter cancellation policies can lead to reduced bookings as customers seek better deals, contributing to the high cancellation rates experienced by hotels [[5]](https://doi.org/10.1016/j.ijhm.2010.03.010). For instance, there is a problem in both hotels: there are <strong>lost potential revenues due to no shows and cancellations</strong> from the guests who have not finished their payment. To counter this problem, the management of Vila Galé need to <strong>revise their policy regarding cancellations and no shows</strong>. This also leads to developing a cancellation prediction machine learning model that can identify potentially canceling guests, so that the room can be accommodated to other guests. On that note, the machine learning model also need to take into account the accuracy of guests whom is predicted canceling their reservation, <strong>as failing to take that factor into account would lead to double booking</strong>, potentially <strong>receiving negative reviews and word-of-mouth</strong> for Vila Galé Opera, Vila Galé Atlântico, or even Vila Galé hotels as a whole.
-
+However, <strong>high cancellation rates remain a challenge for hotels, influenced by customer behavior and economic uncertainties</strong>. These studies highlight that stricter cancellation policies can lead to reduced bookings as customers seek better deals, contributing to the high cancellation rates experienced by hotels [[5]](https://doi.org/10.1016/j.ijhm.2010.03.010). For instance, there is a problem in both hotels: there are <strong>lost potential revenues due to no shows and cancellations</strong> from the guests who have not finished their payment. To counter this problem, the management of Vila Galé need to <strong>revise their policy regarding cancellations and no shows</strong>. This also leads to developing a cancellation prediction machine learning model that can identify potentially canceling guests, so that reservation that have high probability to cancel can be charged with deposit or upfront payment.
 </div>
 
 
@@ -61,10 +59,9 @@ However, <strong>high cancellation rates remain a challenge for hotels, influenc
 
 <div style='text-align: justify'>
 
-Vila Galé Hotels in Portugal are facing a significant challenge with <b>high rates of reservation cancellations and no-shows</b>. This phenomenon results in a <strong>substantial number of rooms remaining unoccupied that could have otherwise been sold</strong>, directly impacting the hotels' revenue streams. The situation creates uncertainty in room inventory management and potentially disrupts overall hotel operational efficiency. The unpredictability in occupancy rates complicates accurate forecasting, affecting decisions related to pricing, staffing, and resource allocation. This issue is particularly pressing for both <strong>Vila Galé Opera (the city hotel) and Vila Galé Atlântico (the resort hotel)</strong>, despite their differing target markets and amenities. The hotels need to understand the underlying factors contributing to these cancellations and develop strategies to mitigate their impact on business performance.
+Vila Galé Hotels in Portugal are facing a significant challenge with <b>high rates of reservation cancellations and no-shows</b>. This phenomenon results in a <strong>substantial number of rooms remaining unoccupied that could have otherwise been sold</strong>, directly impacting the hotels' revenue streams. The situation creates uncertainty in room inventory management and potentially disrupts overall hotel operational efficiency. The unpredictability in occupancy rates complicates accurate forecasting, affecting decisions related to pricing method, staffing, and resource allocation. This issue is particularly pressing for both <strong>Vila Galé Opera (the city hotel) and Vila Galé Atlântico (the resort hotel)</strong>, despite their differing target markets and amenities. The hotels need to understand the underlying factors contributing to these cancellations and develop strategies to mitigate their impact on business performance.
 <br><br>
-In detail, the problem hypothesis for a machine learning approach focus on <strong>accurately predicting and classifying the likelihood of reservation cancellations and no-shows</strong>. By developing predictive models, the hotels can <strong>minimize uncertainty in room occupancy, allowing for more effective room inventory management, dynamic pricing strategies, and optimized staffing levels</strong>. This approach would help reduce the financial impact of cancellations and no-shows, improving overall operational efficiency.<br>
-The problem hypothesis for analytics might center on identifying actionable insights to increase Vila Galé Hotels revenue, even in the face of high cancellation rates. Include planning strategies to minimize reservation cancellation rates by expanding market segmentation and attracting new tourist demographics.
+In detail, the problem hypothesis for a machine learning approach focus on <strong>accurately predicting and classifying the likelihood of reservation cancellations and no-shows</strong>. By developing predictive models, the hotels can (and already did) <strong>make sure that cancelling-prone guests have to pay first, as well as allowing for more effective room inventory management</strong>. These also would help reduce the financial impact of cancellations and no-shows, improving overall operational efficiency.
 <br><br>
 <strong>By combining machine learning models and analytics with targeted marketing, Vila Galé Hotels can better position themselves to maximize revenue and occupancy rates, even in a competitive and uncertain market environment.</strong>
 
@@ -80,8 +77,10 @@ The problem hypothesis for analytics might center on identifying actionable insi
 ---
 
 <div style='text-align: justify'>
+One of the main problem is the lost revenue of both hotels due to misaligned of payment method, in which the cancelled reservations was not assigned to deposit type payment method. Later, on the deeper analysis part, it was found that the lost potential revenue was almost EUR 12.4 millions during the period of two years, for both hotels combined.<br>
 
-The goals of this analysis is to assist the <b>Hotel Revenue Manager</b> in optimizing hotel revenue and improving overall operational efficiency. The analysis will focus on identifying booking patterns, occupancy trends, customer segmentation, and factors influencing reservation cancellations. The insights gained will be used to develop <b>dynamic pricing strategies, increase occupancy rates, reduce cancellations, and optimize resource allocation</b>. Ultimately, these findings will support data-driven decision-making to enhance hotel profitability during both high and low demand periods [[6]](https://www.mews.com/en/blog/hotel-revenue-manager).
+
+The goals of this analysis is to assist the <b>Hotel Revenue Manager</b> in optimizing hotel revenue and improving overall operational efficiency. The analysis will focus on identifying booking patterns, occupancy trends, customer segmentation, and factors influencing reservation cancellations. The insights gained will be used to develop <b> pricing and payment method strategies, increase occupancy rates, reduce cancellations, and optimize resource allocation</b>. Ultimately, these findings will support data-driven decision-making to enhance hotel profitability during both high and low demand periods [[6]](https://www.mews.com/en/blog/hotel-revenue-manager).
 
 </div>
 <div style="text-align: left;">
@@ -96,27 +95,13 @@ The goals of this analysis is to assist the <b>Hotel Revenue Manager</b> in opti
 
 1. **True Positive**: Guest canceled occurs, meaning the guest canceled really happening for sure.
 2. **False Positive (Type I Error)**: The guest is predicted to canceled but actually doesn't.  
-Consequence: Hotels may overbook or give rooms to other guests, which can cause operational problems and potential reputational damage if genuine guests still show up.
+Consequence: Guests that assigned down payment to be paid might cancel really cancel their reservation due to unability or unwillingness to pay upfront.
 3. **True Negative**: The guest doesn't canceled, meaning they continue to booking hotel.
 4. **False Negative (Type II Error)**: The guest is predicted not to canceled but actually does.  
-Consequence: There's risk empty room unexpected, which is losing some potential revenue and resource usage not efficient.
+Consequence: There's risk of lost revenue due to cancelled reservations that had not been paid upfront.
 <br><br>
-<div style='text-align: justify'>
-The <strong>F2 score</strong> is chosen as the primary evaluation metric for this guest cancellation prediction model because it emphasizes recall over precision. In the case of cancellation prediction, the main focus is to identify as many potential cancellation guest (True Positives) as possible, while minimizing type II error.
-<br><br>
-<strong>The reasons are:</strong>
 
-1. Revenue Protection: F2 prioritizes recall, helping identify more potential cancellations and protect hotel revenue.
-
-2. Cost Imbalance: False negatives (missed cancellations) are typically more costly than false positives in the hotel industry.
-
-3. Operational Flexibility: Hotels can usually manage false positives more easily than unexpected cancellations.
-
-4. Inventory Optimization: Higher recall enables better room allocation and occupancy maximization.
-
-5. Proactive Management: Identifying likely cancellations allows for targeted retention efforts and improved customer engagement.
-
-**These reasons align well with the Hotel Revenue Manager's goals of maximizing revenue, optimizing resource allocation, and improving overall operational efficiency in the hotel industry.**
+In this case, since the cost of Type II Error is more costly than cost of Type I Error, the metric used will be <b>recall</b>. Using this metric, the goal is to minimize the error of flagging those who would cancel as 'proceed'.
 
 </div>
 
@@ -173,7 +158,6 @@ For analysis purpose, several columns also need to be added into the dataframe. 
 * `previous_cancellation_ratio`: ratios of how many cancelled reservations before the current reservation per total reservations made before.
 * `was_in_waiting_list`: grouping of whether the reservations were immediately put into the PMS or needed to wait before being inputted.
 * `is_local`: grouping of whether the reservations made by guests from Portugal or not, if yes, the value is 1.
-* `adr_third_quartile_deviation`: normalization of `adr` columns using `arrival_date_year`, `arrival_date_week_number`, `distribution_channel`, and `reserved_room_type` to avoid multicollinearity and reduce effects of said columns to `adr`.
 
 
 
@@ -182,11 +166,12 @@ For analysis purpose, several columns also need to be added into the dataframe. 
 </div>
 
 ---
-
+<div style="text-align: left;">
 To summarize what was done in the data cleaning process, the changed of the current dataframe with the original dataframe are listed below:
 * Missing Value:
-    - Dropping missing values in columns `children` and `country`
+    - Dropping missing values in columns `country`
     - Filling missing values in columns `agent` and `company` with string value 'undefined'
+    - Filling missing values in columns `children` with integer 0
 * Duplicate Entries:
     - Remove any data that had more than 7 duplicates
 * Data Anomalies:
@@ -212,7 +197,7 @@ To summarize what was done in the data cleaning process, the changed of the curr
 
 
 The cleaned data is enclosed in this repository with the name `hotel_bookings_cleaned.csv`.
-
+</div>
 
 
 <div style="text-align: left;">
@@ -222,11 +207,11 @@ The cleaned data is enclosed in this repository with the name `hotel_bookings_cl
 ---
 
 <div style='text-align: justify'>
-For this guest prediction cancellation project, we will separate the dataset into features (independent variables) and target (dependent variable). Features include columns excluding 'is_canceled', such as 'agent', 'company', and others. <strong>Our target is the 'is_canceled' column</strong>, which indicates whether a guest canceled or not. This separation is crucial for training the model to predict canceled based on guest characteristics.
+For this reservation cancellation prediction project, we will separate the dataset into features (independent variables) and target (dependent variable). Features include columns excluding 'is_canceled', such as 'agent', 'company', and others. <strong>Our target is the 'is_canceled' column</strong>, which indicates whether a guest canceled or not. This separation is crucial for training the model to predict canceled based on guest characteristics.
 
-To be precise, there are 19 columns used as features, listed below:
-* Categorical features: `hotel`, `agent`, `company`, `customer_type`, `deposit_type`, `distribution_channel`, `market_segment`, `meal`, `is_local`, `was_in_waiting_list`, `is_repeated_guest`;
-* Numerical features: `adr_third_quartile_deviation`, `adults`, `booking_changes`, `lead_time`, `previous_cancellation_ratio`, `total_of_special_requests`, `duration_of_stay`, `arrival_date_week_number`.
+To be precise, there are 17 columns used as features, listed below:
+* Categorical features: `hotel`, `customer_type`, `distribution_channel`, `market_segment`, `meal`, `is_local`, `reserved_room_type`, `was_in_waiting_list`, `is_repeated_guest`;
+* Numerical features: `adr`, `adults`, `lead_time`, `previous_cancellation_ratio`, `total_of_special_requests`, `stays_in_weekend_nights`, `stays_in_week_nights`, `arrival_date_week_number`.
 </div>
 
 
@@ -234,7 +219,7 @@ To be precise, there are 19 columns used as features, listed below:
 The dataset <strong>will be split into training and testing data with an 80:20 ratio</strong>. The training data will be used to train the model, while the testing data will be used to evaluate the model's performance. This split is important for assessing the model's ability to generalize to new, unseen data.
 </div>
 
-Based on the cross-validating and model evaluation, the model chosen for this case is **the hyperparameter tuned model of XGBoost Classifier using Random Oversampling** as the resample method. Using F2-score as the main metric, its F2-score was as high as 81%. This model also **has a very high recall of 95%**. Other than precision, the other metrics also seem okay from this team rule of thumb, with accuracy of 74%, precision of 52%, and F1-score of 0.67%. The model has been saved as an pickle object, and ready to be deployed.
+Based on the cross-validating and model evaluation, the model chosen for this case is **the hyperparameter tuned model of Light Gradient Boosting Model Classifier using balanced class weight** to deal with the imbalance of negative class and positive class. Using **recall score** as the main metric, the score is approximately **90%**. The model has been saved as an pickle object, and ready to be deployed.
 
 
 <div style="text-align: left;">
