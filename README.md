@@ -168,6 +168,7 @@ For analysis purpose, several columns also need to be added into the dataframe. 
 ---
 <div style="text-align: left;">
 To summarize what was done in the data cleaning process, the changed of the current dataframe with the original dataframe are listed below:
+  
 * Missing Value:
     - Dropping missing values in columns `country`
     - Filling missing values in columns `agent` and `company` with string value 'undefined'
@@ -229,6 +230,7 @@ Based on the cross-validating and model evaluation, the model chosen for this ca
 ---
 
 This model was trained using Xtreme Gradient Booster model for classification, with the train data were resampled using Random Oversampling method. While the model may perform well, there are several limitations while inputting data to be used as features, listed below:
+
 * `lead_time` must be inbetween 0 and 709;
 * `duration_of_stay` must be inbetween 1 and 57;
 * `previous_cancellation_ratio` must be in between 0 and 1;
